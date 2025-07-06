@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 10px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .projects, .experience {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(163, 15, 15, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Naga Vamsi Kumar Reddy Sandula</h1>
+        <p>Full Stack Developer | Designer | Coder</p>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <h3>Product landing</h3>
+                <p>Product landing page you will use columns and align the components of the landing page within columns. Basic editing tasks like cropping images and making use of design templates are also covered in this</p>
+            </div>
+            <div class="card">
+                <h3>Weather Forecast Website</h3>
+                <p>A web app that auto-detects or accepts user location input to fetch and display the current and 5-day weather forecast using a real-time weather API.</p>
+            </div>
+            <!-- Add more projects -->
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <div class="card">
+                <h3>Intern</h3>
+                <p>SlashMark(2025)</p>
+                <p>Full Stack Web Developer Intern</p>
+            </div>
+            <!-- Add more experiences -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: sandulavamsi@gmail.com</p>
+        <div class="social-icons">
+            <a href="https://github.com/NagaVamsi03" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Naga Vamsi Kumar Reddy. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
